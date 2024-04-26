@@ -1,0 +1,27 @@
+.navpan{
+    display: flex;
+    padding: 2% 0 2% 0;
+    background-color: #c9bdbd;
+    justify-content: space-around;
+}
+
+h2 {
+    color: #333; 
+    margin-bottom: 10px;
+}
+h3 {
+    color: #666; 
+    margin-bottom: 10px; 
+}
+
+
+a {
+    color: #0e1d2d; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+    display:block; /* Размещаем ссылки на новой строке */
+    margin-bottom: 5px; /* Отступ между ссылками */
+}
+
+a:hover {
+    color: #ffffff; /* Цвет ссылки при наведении */
+}

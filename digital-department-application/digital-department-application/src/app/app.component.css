@@ -1,0 +1,27 @@
+.navpan{
+    display: flex;
+    padding: 2% 0 2% 0;
+    background-color: #c9bdbd;
+    justify-content: space-around;
+}
+
+h2 {
+    color: #333; 
+    margin-bottom: 10px;
+}
+h3 {
+    color: #666; 
+    margin-bottom: 10px; 
+}
+
+
+a {
+    color: #0b3563; 
+    text-decoration: none; 
+    display:block; 
+    margin-bottom: 5px; 
+}
+
+a:hover {
+    color: #ffffff; 
+}

@@ -1,0 +1,44 @@
+
+form{
+    width: 80vw; 
+    margin-top: 5%;
+    padding: 5%;
+    background-color: rgb(245, 159, 255);
+    border-radius: 8px;
+}
+
+label {
+    display: block; 
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+input, button {
+    width: 70%; 
+    padding: 8px; 
+    margin-bottom: 2%; 
+    border: 1px solid #8f1f9b; 
+    border-radius: 8px; 
+}
+
+button {
+    margin-top: 5%;
+    background-color: #d800df; 
+    color: #fff; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #a400ba; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px; 
+    background-color: #f9f9f9;
+    padding: 5px;
+    border: 1px solid #cccccc; 
+}

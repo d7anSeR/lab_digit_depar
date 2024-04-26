@@ -1,0 +1,12 @@
+<div>
+  <h2>Лабораторные 3, 4, 5</h2>
+  <h3>Навигационная панель</h3>
+  <div class="navpan">
+    <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Страница 1</a><br>
+    <a routerLink="/page2">Страница 2</a><br>
+    <a routerLink="/page3">Страница 3</a><br>
+    <a [routerLink]="['show-name', 'ДАРЬЯ']">Покажи своё имя</a>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
